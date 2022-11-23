@@ -6,7 +6,27 @@
   margin-top: -10px;
   /* text-align: center; */
 }
-.title-text,
+.title-text, 
 .translated-word {
   text-align: center;
+}
+
+.input-text
+{
+  width:98%;
+  height:30px;
+  border:1px solid ;
+  margin: 10px 0px;
+}
+.signup-btn,.savebtn{
+  border:1px solid black !important;
+  width:100%;
+  height:35px;
+  background-color: black !important;
+  color:white !important;
+  text-align: center;
+}
+.signin-link{
+  border:1px solid white;
+  background-color: white;
 }
