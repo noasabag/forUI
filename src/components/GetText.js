@@ -21,7 +21,7 @@ const GetText = () => {
   }, [textTitle]);
 
   return (
-    <div className="test3">
+    <div className="gettext-wrapper">
     <div className="getText-cont"> 
     <div>
       <select

@@ -53,7 +53,7 @@ button{
   align-items: center;
 
 }
-.test3{
+.gettext-wrapper{
   display:flex;
   justify-content: center;
   align-items: center;
@@ -65,4 +65,34 @@ button{
   border:1px solid grey;
   padding: 10px;
   text-align: center;
+}
+
+/*---- dictonary management */
+.wordlist-contain{
+  border:1px solid grey;
+  width:80%;
+  min-height:70vh;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.word-title{
+  display: flex;
+  justify-content: space-between;
+}
+.flex{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.drop-symbol{
+  margin-top: -12px;
+  width:20px;
+  padding:5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box-align{
+  margin-top: -15px;
 }
