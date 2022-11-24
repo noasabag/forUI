@@ -82,8 +82,7 @@ const SigninScreen = () => {
          </div>
          <div> 
         <input
-                className="input-text"
-
+          className="input-text"
           id="password"
           type={passwordShown ? "text" : "password"}
           onChange={(e) => {
@@ -92,6 +91,7 @@ const SigninScreen = () => {
           placeholder="Enter your password"
         /> 
         </div>
+
         <input id="toggle-password" type="checkbox" onClick={togglePassword} /> 
         <label htmlFor="toggle-password">Show Password</label> <br/>
         <div>
@@ -107,7 +107,7 @@ const SigninScreen = () => {
 
         <p style={{textAlign:'center'}}>Don't have an account? 
            <button
-           className="signup-btn"
+           className="signup-link"
           onClick={() => {
             navigate("/signup");
           }}

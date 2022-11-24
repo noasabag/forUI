@@ -16,6 +16,9 @@ const WordList = () => {
   useEffect(wordList, []);
 
   return (
+    <div className="wordlist-cont">
+
+    
     <ul>
       {a.map((ob) => {
         return (
@@ -27,6 +30,7 @@ const WordList = () => {
         );
       })}
     </ul>
+    </div>
   );
 };
 export default WordList;

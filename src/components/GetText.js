@@ -21,9 +21,12 @@ const GetText = () => {
   }, [textTitle]);
 
   return (
+    <div className="test3">
+    <div className="getText-cont"> 
     <div>
       <select
         name="text"
+        style={{margin:'0 auto'}}
         onChange={(e) => {
           setTextTitle(e.target.value);
         }}
@@ -47,6 +50,8 @@ const GetText = () => {
       ) : (
         <h2>cant decide which one?</h2>
       )}
+    </div>
+    </div>
     </div>
   );
 };

@@ -21,11 +21,16 @@ const WordComponent = (props) => {
       });
   }, [wordNtranslate]);
   return (
-    <div className="text">
-      <p>
-        {props.wordNtranslate.nativeWord} : {props.wordNtranslate.translate}
-      </p>
-      <button onClick={onclickHandler}>save</button>
+    <div className="textpage-cont">
+      <div className="word-box">
+        <div 
+        >
+          <p>
+            {props.wordNtranslate.nativeWord} : {props.wordNtranslate.translate}
+          </p>
+          <button onClick={onclickHandler}>save</button>
+        </div>
+      </div>
     </div>
   );
 };

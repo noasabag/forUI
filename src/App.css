@@ -26,7 +26,43 @@
   color:white !important;
   text-align: center;
 }
-.signin-link{
+.signin-link,.signup-link{
   border:1px solid white;
   background-color: white;
+  font-weight: 800;
+}
+
+button{
+  cursor: pointer;
+}
+
+/*----- display text page-----*/
+.textpage-cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .word-box{
+  width:600px;
+  height:60vh;
+} */
+
+.wordlist-cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.test3{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.getText-cont{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid grey;
+  padding: 10px;
+  text-align: center;
 }

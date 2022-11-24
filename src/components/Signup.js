@@ -102,28 +102,25 @@ const Signup = () => {
             }}
           ></input>
         </div>
-        <div>
-          <label>Password</label>
-        </div>
-        <div>
-          <input
+
+        
+        <div> 
+         <label>Password</label>
+         </div>
+         <div> 
+        <input
           className="input-text"
-            type="password"
-            placeholder="Enter your password"
-            onChange={(e) => {
-              setPassword(e.target.value);
-            }}
-          ></input>
-          <input id="password" type={passwordShown ? "text" : "password"} />
-
-          <input
-            id="toggle-password"
-            type="checkbox"
-            onClick={togglePassword}
-          />
-
-          <label htmlFor="toggle-password">Show Password</label>
+          id="password"
+          type={passwordShown ? "text" : "password"}
+          onChange={(e) => {
+            setPassword(e.target.value);
+          }}
+          placeholder="Enter your password"
+        /> 
         </div>
+
+        <input id="toggle-password" type="checkbox" onClick={togglePassword} /> 
+        <label htmlFor="toggle-password">Show Password</label> <br/>
 
         <div>
           <label>Confirm password</label>
