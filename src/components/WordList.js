@@ -19,6 +19,9 @@ const WordList = () => {
 
 
   return (
+     <div>
+
+    
     <div className="wordlist-cont">
 
       <div className="wordlist-contain"> 
@@ -61,11 +64,11 @@ const WordList = () => {
          <h5> Source</h5>
          <p className="box-align"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing sem enim velit dui feugiat ac molestie nore comm sed. Pretium in ut sit quis vulputate cursus sed natoque. Risus sit quam tortor viverra. Vitae hendreriad arcu et eu nisi, sit felis consectetur. Iaculis quisque scelerisque cras mauris, orci integer nisl lectus morbi  </p>
          </div>
-
+         
 
 
       </div>
-
+      
     
     <ul>
       {a.map((ob) => {
@@ -79,6 +82,15 @@ const WordList = () => {
       })}
     </ul>
 
+    </div>
+    <div >
+        <p style={{textAlign:'center'}}> Learn new words</p>
+        <div className="flex">
+          <button className=" display-text">
+            Display text
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

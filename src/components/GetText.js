@@ -21,6 +21,9 @@ const GetText = () => {
   }, [textTitle]);
 
   return (
+    <div>
+
+   
     <div className="gettext-wrapper">
     <div className="getText-cont"> 
     <div>
@@ -52,6 +55,21 @@ const GetText = () => {
       )}
     </div>
     </div>
+    </div>
+     <div className="flex">
+        <button className="display-text save-word">
+          Save word
+        </button>
+      </div>  
+    <div >
+        <p style={{textAlign:'center'}}> See the word you saved</p>
+        <div className="flex">
+          <button className=" display-text">
+            My word
+          </button>
+        </div>
+      </div>
+
     </div>
   );
 };
